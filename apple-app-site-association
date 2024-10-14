@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": "TEAMID.com.yourcompany.yourapp",
+        "appID": "A4W4UNAF76.awb.europe.prod",
         "paths": [
           "!/resetpassword/*",
           "*"
