@@ -3,10 +3,10 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Set the Content-Type header for the apple-app-site-association file
-app.use('/.well-known/apple-app-site-association', (req, res) => {
+// Serve apple-app-site-association file
+app.get('/apple-app-site-association', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.sendFile(path.join(__dirname, '.well-known', 'apple-app-site-association'));
+  res.sendFile(path.join(__dirname, 'apple-app-site-association'));
 });
 
 // Start the server
