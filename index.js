@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Serve apple-app-site-association file
-app.get('/apple-app-site-association', (req, res) => {
+app.get('/.well-known/apple-app-site-association', (req, res) => {
   // Log the request to indicate the route is hit
   console.log('Received request for /apple-app-site-association');
 
