@@ -1,14 +1,13 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": "A4W4UNAF76.awb.europe.prod",
-        "paths": [
-          "!/resetpassword/*",
-          "*"
-        ]
-      }
-    ]
-  }
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appIDs": [
+                "A4W4UNAF76.com.adria.e-attijari-sit",
+                "A4W4UNAF76.com.adria.e-attijari-preprod",
+		"A4W4UNAF76.awb.europe.prod"
+            ],
+            "paths": [ "*" ]
+        }]
+    }
 }
