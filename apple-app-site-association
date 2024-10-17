@@ -5,9 +5,12 @@
             "appIDs": [
                 "A4W4UNAF76.com.adria.e-attijari-sit",
                 "A4W4UNAF76.com.adria.e-attijari-preprod",
-		"A4W4UNAF76.awb.europe.prod"
+                "A4W4UNAF76.awb.europe.prod"
             ],
-            "paths": [ "*" ]
+            "paths": [
+                "*",                            // Allow all paths
+                "NOT /app/reinitPassword*"      // Exclude all paths starting with /app/reinitPassword
+            ]
         }]
     }
 }
